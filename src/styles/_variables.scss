@@ -1,0 +1,23 @@
+/* Todo: switch to design tokens, for use in JS and SCSS */
+$uxi-colors: (
+    red: #ea1b68,
+    pink: #ee6492,
+    darkgreen: #5fbd26,
+    green: #a7d941,
+    orange: #f38231,
+    yellow: #fdc144,
+    blue: #1a9bfc,
+    cyan: #4cc8f3,
+    purple: #090b8d,
+    white: #fff,
+    gray: #373941
+);
+
+$text: #020621;
+$body-line-height: 1.5;
+
+$family-serif: 'Merriweather', serif;
+$family-sans-serif: 'Source Sans Pro', sans-serif;
+$family-primary: $family-sans-serif;
+
+$navbar-height: 3rem;

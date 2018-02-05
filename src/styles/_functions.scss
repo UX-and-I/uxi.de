@@ -1,0 +1,23 @@
+@function px2something($px, $context, $unit) {
+    @if (unitless($px)) {
+    $px: $px * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $px / $context * $unit;
+}
+
+@function px2rem($px, $context: 16px) {
+  @return px2something($px, $context, 1rem);
+}
+
+@function px2em($px, $context: 16px) {
+  @return px2something($px, $context, 1em);
+}
+
+@function lineHeight($px, $context: 16px) {
+  @return px2something($px, $context, 1);
+}

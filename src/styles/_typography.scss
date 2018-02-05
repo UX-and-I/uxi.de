@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+
+    @media (max-width: 768px) {
+        font-size: 13px;
+    }
+}
+
+body {
+    font-family: $family-sans-serif;
+    line-height: $body-line-height;
+    font-size: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+hr {
+    border: none;
+    height: px2rem(1);
+    margin: px2rem(16) px2rem(32);
+    background-color: transparentize($text, 0.88);
+}
+
+p,
+ul {
+    margin: px2em(20) 0;
+    font-size: px2rem(16);
+    line-height: lineHeight(24, 16);
+    color: #373941;
+
+    @media (max-width: 420px) {
+        font-size: px2rem(20);
+    }
+}
+
+ul {
+    list-style: disc;
+    margin-left: px2rem(24);
+}
+
+ul li {
+    padding-left: 0;
+    margin: 6px 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.cms-typo a {
+    color: inherit;
+    box-shadow: inset 0px -6px 0 0 map-get($uxi-colors, cyan);
+}

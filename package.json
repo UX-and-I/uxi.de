@@ -1,0 +1,52 @@
+{
+  "name": "uxi.de",
+  "description": "Corporate website of UX&I GmbH, uxi.de",
+  "version": "1.0.0",
+  "author": "Julian Kempff",
+  "dependencies": {
+    "animated": "^0.2.1",
+    "gatsby": "^1.9.147",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-sharp": "^1.6.24",
+    "gatsby-plugin-google-analytics": "^1.0.15",
+    "gatsby-plugin-manifest": "^1.0.13",
+    "gatsby-plugin-offline": "^1.0.12",
+    "gatsby-plugin-styled-components": "^2.0.4",
+    "gatsby-remark-images": "^1.5.36",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.25",
+    "gatsby-transformer-sharp": "^1.6.16",
+    "lodash.throttle": "^4.1.1",
+    "minireset.css": "0.0.3",
+    "prop-types": "^15.6.0",
+    "react-collapse": "^4.0.3",
+    "react-load-script": "0.0.6",
+    "react-motion": "^0.5.2",
+    "react-progressive-image": "^0.3.0",
+    "rimraf": "^2.6.2",
+    "styled-components": "^2.4.0"
+  },
+  "keywords": [
+    "gatsby", "UX&I", "uxi"
+  ],
+  "main": "n/a",
+  "scripts": {
+    "cleanup": "rimraf ./.cache/* && rimraf ./public/*",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "_format": "prettier --write",
+    "format": "npm run format:src & npm run format:cms",
+    "format:src": "npm run _format 'src/**/*.js'"
+  },
+  "pre-commit": [
+    "format"
+  ],
+  "devDependencies": {
+    "onchange": "^3.3.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.9.2"
+  }
+}
