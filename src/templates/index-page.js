@@ -93,7 +93,8 @@ class IndexPageTemplate extends React.Component {
             <Row>
               <Fifty>
                 <Image
-                  ratio={9 / 16}
+                  ratio={3 / 4}
+                  preview={require('../img/illustrations/uxi_illustration_waswirbieten@2x.60.png')}
                   src={require('../img/illustrations/uxi_illustration-waswirbieten@2x.png')}
                 />
               </Fifty>
@@ -119,6 +120,7 @@ class IndexPageTemplate extends React.Component {
               <Fifty>
                 <Image
                   ratio={386 / 684}
+                  preview={require('../img/unserteam@2x.60.jpg')}
                   src={require('../img/unserteam@2x.jpg')}
                 />
               </Fifty>

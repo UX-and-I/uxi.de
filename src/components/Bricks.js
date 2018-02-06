@@ -258,22 +258,11 @@ export const Right = styled.div`
 export const ImagePlaceholder = styled.div`
   position: relative;
   display: block;
+  background-size: cover;
   background-color: ${props =>
     props.transparent ? 'transparent' : colors.gray3};
   padding-top: ${props => props.ratio * 100}%;
   height: 0;
-
-  &:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: ${colors.gray2};
-    border-radius: 50%;
-    width: ${px2rem(50)};
-    height: ${px2rem(50)};
-  }
 `
 export const TextDot = styled.span`
   &:not(:last-child):after {
@@ -296,6 +285,7 @@ export const TextUtil = styled.div`
 export const Spacing = styled.div`
   margin-top: ${props => (props.top ? px2rem(54) : '0')};
   margin-bottom: ${props => (props.bottom ? px2rem(54) : '0')};
+  width: ${props => (props.full ? '100%' : null)};
 `
 
 export const Measure = styled.div`

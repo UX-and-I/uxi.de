@@ -45,8 +45,10 @@ export const ServicesPageTemplate = ({
           <Row center>
             <Fifty>
               <Image
+                preview={require('../img/illustrations/leistungen_head_illustration@2x.60.png')}
                 src={require('../img/illustrations/leistungen_head_illustration@2x.png')}
-                ratio={0.75}
+                transparent
+                ratio={3 / 4}
               />
             </Fifty>
             <Fifty>

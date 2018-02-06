@@ -51,9 +51,11 @@ export const JobsPageTemplate = ({
           </ButtonLink>
         </SectionFooter>
 
-        <Spacing top>
+        <Spacing top full>
           <Image
             width={1200}
+            transparent
+            preview={require('../img/illustrations/jobs_hero_illustration@2x.60.png')}
             src={require('../img/illustrations/jobs_hero_illustration@2x.png')}
             ratio={0.5}
           />
