@@ -19,7 +19,15 @@ import {
 
 import JobOffer, { JobOfferList, JobOfferLabel } from '../components/JobOffer'
 import { Image } from '../components/Image'
-import { Fifty, Grid, Quarter, Row, Third, TwoThirds } from '../components/Grid'
+import {
+  Fifty,
+  Grid,
+  Quarter,
+  Row,
+  SeventyFive,
+  Third,
+  TwoThirds,
+} from '../components/Grid'
 import { Subject } from '../components/Subject'
 import { DotList, DotListItem } from '../components/DotList'
 import { CheckList, CheckListItem } from '../components/CheckList'
@@ -51,15 +59,21 @@ export const JobsPageTemplate = ({
           </ButtonLink>
         </SectionFooter>
 
-        <Spacing top full>
-          <Image
-            width={1200}
-            transparent
-            preview={require('../img/illustrations/jobs_hero_illustration@2x.60.png')}
-            src={require('../img/illustrations/jobs_hero_illustration@2x.png')}
-            ratio={0.5}
-          />
-        </Spacing>
+        <Grid size="full">
+          <Row>
+            <SeventyFive pushRight pushLeft>
+              <Spacing top full>
+                <Image
+                  width={1200}
+                  transparent
+                  preview={require('../img/illustrations/jobs_hero_illustration@2x.60.png')}
+                  src={require('../img/illustrations/jobs_hero_illustration@2x.png')}
+                  ratio={0.5}
+                />
+              </Spacing>
+            </SeventyFive>
+          </Row>
+        </Grid>
       </SectionCover>
       <HrThin />
       <Section>
