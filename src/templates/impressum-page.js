@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import Content, { HTMLContent } from '../components/Content'
-import { Section, TeaserHeadline } from '../components/Bricks'
+import { HrThin, Section, TeaserHeadline } from '../components/Bricks'
 import { Grid, Quarter, Row } from '../components/Grid'
 import { px2rem } from '../constants'
 
@@ -67,6 +67,7 @@ export const SimplePageTemplate = ({
           </Row>
         </Grid>
       </Section>
+      <HrThin />
       <Section>
         <Grid size="full">
           <TeaserHeadline>Datenschutz</TeaserHeadline>
@@ -210,6 +211,7 @@ export const SimplePageTemplate = ({
           </Two>
         </Grid>
       </Section>
+      <HrThin />
     </Wrapper>
   )
 }
