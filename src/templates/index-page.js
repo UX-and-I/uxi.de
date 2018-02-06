@@ -81,8 +81,8 @@ class IndexPageTemplate extends React.Component {
           <Hero>Digitale Produktschmiede</Hero>
           <HeroSub>
             Wir entwerfen überzeugende <strong>Produktstrategien</strong>,
-            validieren <strong>Produktideen</strong> und gestalten leicht
-            verständliche User <strong>Interfaces</strong> für komplexe
+            validieren <strong>Produktideen</strong> und gestalten{' '}
+            <strong>leicht verständliche User Interfaces</strong> für komplexe
             Anwendungsbereiche.<br />Innovativ, agil und mit viel Liebe zum
             Detail.
           </HeroSub>
@@ -103,8 +103,10 @@ class IndexPageTemplate extends React.Component {
                 <p>
                   Wir ergänzen Entwicklungs- und Produktteams mit kreativer
                   Expertise und etablieren nutzerzentrierte Produktionsprozesse
-                  – von der <strong>Ideenfindung</strong> und -verprobung bis
-                  zum wachsenden <strong>Designsystem</strong>.
+                  – von der{' '}
+                  <strong>
+                    Ideenfindung und -verprobung bis zum wachsenden Designsystem
+                  </strong>.
                 </p>
                 <ButtonRouterLink to="/leistungen">
                   Unsere Leistungen
@@ -127,13 +129,11 @@ class IndexPageTemplate extends React.Component {
               <Fifty>
                 <TitleH4>Unser Team</TitleH4>
                 <p>
-                  Passionierte Querdenker aus{' '}
-                  <strong>Beratung und Konzeption</strong>, kreative{' '}
-                  <strong>Designer</strong> und versierte{' '}
-                  <strong>Frontendentwickler</strong> schaffen konsistente
-                  Nutzererlebnisse aus einem Guss. Ganzheitlich, wirtschaftlich
-                  effizient und mit einem guten Gespür für technische
-                  Machbarkeit.
+                  Passionierte Querdenker aus Beratung und Konzeption, kreative{' '}
+                  Designer und versierte Frontend-Entwickler schaffen
+                  konsistente Nutzererlebnisse aus einem Guss. Ganzheitlich,
+                  wirtschaftlich effizient und mit einem guten Gespür für
+                  technische Machbarkeit.
                 </p>
                 <ButtonRouterLink to="/ueber-uns">Über uns</ButtonRouterLink>
               </Fifty>

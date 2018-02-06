@@ -38,7 +38,7 @@ export const TeamPageTemplate = ({
       </Helmet>
       <SectionCover>
         <Hero>
-          Anders arbeiten. Richtig machen. Und wer nicht fragt bleibt dumm.
+          Anders arbeiten. Richtig machen. Und wer nicht fragt, bleibt dumm.
         </Hero>
         <HeroSub>
           Wir bei UX&I sind alle technikaffine Profis. Soweit der Klappentext.
@@ -102,10 +102,8 @@ export const TeamPageTemplate = ({
                 <p>
                   Hinter uns steht ein kluges und herzliches Team, das
                   Hilfsbereitschaft und gemeinsames Lernen groß schreibt. Titel
-                  und Hierarchien sind uns dagegen nicht wichtig und deshalb
-                  gibt’s auch keine Rangordnung. Wer mehr weiß, gibt sein Wissen
-                  weiter. An alle. Und wer mehr Erfahrung hat, hilft und
-                  unterstützt Andere.
+                  und Hierarchien sind uns dagegen nicht wichtig: Wer mehr weiß,
+                  gibt sein Wissen weiter.
                 </p>
               </Subject>
             </Third>
@@ -117,9 +115,8 @@ export const TeamPageTemplate = ({
                 <p>
                   Jeder im Team hat das Mandat an Prozessen zu rütteln und mit
                   Methoden zu experimentieren. Wie soll man sie denn sonst
-                  lernen? Außerdem: Fehler machen, macht schlau. Wenn man aus
-                  seinen Fehlern lernt, dann profitieren alle davon. Also trau
-                  dich!
+                  lernen? Außerdem: Fehler machen macht schlau. Und wenn man aus
+                  seinen Fehlern lernt, profitieren alle davon. Also trau dich!
                 </p>
               </Subject>
             </Third>

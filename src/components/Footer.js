@@ -145,7 +145,7 @@ export default function Footer() {
                 <br />
                 Kemperplatz 1 / Building A<br />
                 10785 Berlin<br />
-                +49 (0)30 1208230-0
+                +49 (0)30 120 82 30-0
               </Address>
             </SocialQuarter>
           </FirstRow>

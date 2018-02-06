@@ -240,10 +240,10 @@ export const JobsPageTemplate = ({
             </Quarter>
             <TwoThirds>
               <JobOfferList>
-                <JobOffer title="Senior UX Konzepter (m/w)">
+                <JobOffer title="Senior UX-Konzepter (m/w)">
                   <Measure>
                     <P>
-                      Als UX Konzepter begleitest du Kunden und agile
+                      Als UX-Konzepter begleitest du Kunden und agile
                       Development-Teams unterschiedlicher Größen während des
                       gesamten Human-Centered-Design Prozesses. Du hilfst und
                       unterstützt von der Ideenentwicklung bis zur letzten
@@ -261,7 +261,7 @@ export const JobsPageTemplate = ({
                       <DotList>
                         <DotListItem>
                           Du hast mindestens fünf Jahre Berufserfahrung im
-                          Bereich UX Konzeption als UX-Writer,
+                          Bereich UX-Konzeption als UX-Writer,
                           Informationsarchitekt oder Product Owner
                         </DotListItem>
                         <DotListItem>
@@ -348,10 +348,10 @@ export const JobsPageTemplate = ({
                   </TextUtil>
                 </JobOffer>
 
-                <JobOffer title="Senior UI Designer (m/w)">
+                <JobOffer title="Senior UI-Designer (m/w)">
                   <Measure>
                     <P>
-                      Als UI Designer gibst du digitalen Produkten ein Gesicht
+                      Als UI-Designer gibst du digitalen Produkten ein Gesicht
                       und machst sie dadurch erst erleb- und bedienbar. Deine
                       Interfaces sind nicht nur modern gestaltet, sondern
                       erfüllen auch die Bedürfnisse der Zielgruppe und machen
@@ -431,11 +431,11 @@ export const JobsPageTemplate = ({
                   </TextUtil>
                 </JobOffer>
 
-                <JobOffer title="Senior Frontend Developer (m/w)">
+                <JobOffer title="Senior Frontend-Developer (m/w)">
                   <Measure>
                     <P>
-                      Unsere Front-End-Developer erarbeiten zusammen mit UX und
-                      UI Designern ansprechende User-Interfaces für Kunden aus
+                      Unsere Front-End-Developer erarbeiten zusammen mit UX- und
+                      UI-Designern ansprechende User-Interfaces für Kunden aus
                       verschiedenen Branchen wie Industrie, Medizin oder dem
                       Consumer-Bereich.
                     </P>

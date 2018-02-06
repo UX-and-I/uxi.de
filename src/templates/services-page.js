@@ -59,10 +59,10 @@ export const ServicesPageTemplate = ({
                 </TeaserHeadline>
                 <TeaserSubline>
                   Es gibt grobe Ideen für ein neues Produkt, aber es ist unklar,
-                  wie man es <strong>risikoarm und nutzerfreundlich</strong> auf
-                  die Straße bringt. Oder neue Features und Produkte lassen sich
-                  nur schwer in die bestehende Systemlandschaft integrieren –
-                  von Usabilityproblemen ganz zu Schweigen.
+                  wie man es risikoarm und nutzerfreundlich auf die Straße
+                  bringt.<br />Oder neue Features und Produkte lassen sich nur
+                  schwer in die bestehende Systemlandschaft integrieren – von
+                  Usabilityproblemen ganz zu Schweigen.
                 </TeaserSubline>
               </TextUtil>
             </Fifty>
@@ -80,8 +80,7 @@ export const ServicesPageTemplate = ({
                 begleiten wir unsere Auftraggeber. Nächster Schritt ist dann die
                 Entwicklung aussagekräftiger Prototypen. Im Anschluss etablieren
                 wir gemeinsam mit Stakeholdern und Development-Teams
-                reibungslose, agile und{' '}
-                <strong>nutzerzentrierte Designprozesse.</strong>
+                reibungslose, agile und nutzerzentrierte Designprozesse.
               </TeaserSubline>
             </Fifty>
             <Fifty>
@@ -129,7 +128,7 @@ export const ServicesPageTemplate = ({
                     Mit Tools wie Journey- oder User-Story-Mapping planen unsere
                     UX-Konzepter kollaborativ die nächsten Schritte und
                     visualisieren mit Scribbles und Wireframes die entstandenen
-                    Ideen. Anschließend entwerfen unsere Interface Designer
+                    Ideen. Anschließend entwerfen unsere Interface-Designer
                     stimmige Designkonzepte, Styleguides und High-Fidelity
                     Prototypen. Sind alle zufrieden, werden die Designs von
                     unseren Frontend-Entwicklern in einzelnen, getesteten
@@ -168,7 +167,7 @@ export const ServicesPageTemplate = ({
               <Subject title="Idee, Strategie & Vision">
                 <DotList>
                   <DotListItem>
-                    Moderation von Ideenfindungs- & Design-Thinking-Workshops
+                    Moderation von Ideenfindungs- und Design Thinking-Workshops
                   </DotListItem>
                   <DotListItem>
                     Planung und Durchführung Design Sprints
