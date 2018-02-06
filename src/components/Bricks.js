@@ -7,16 +7,16 @@ import { lineHeight, media, px2em } from '../constants'
 export const Hero = styled.h1`
   margin-bottom: ${px2rem(20)};
 
+  font-family: ${familySerif};
   font-size: ${px2rem(46)};
-  font-weight: bold;
-  line-height: ${lineHeight(54, 46)};
+  font-weight: normal;
+  line-height: 1.15;
 
   color: ${colors.hero};
   max-width: 15em;
 
   ${media.minTablet} {
     font-size: ${px2rem(52)};
-    line-height: ${lineHeight(54, 52)};
   }
 `
 
