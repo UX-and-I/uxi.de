@@ -71,10 +71,6 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <link
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Source+Serif+Pro:400,400i,600,600i"
-            rel="stylesheet"
-          />
         </body>
       </html>
     )
