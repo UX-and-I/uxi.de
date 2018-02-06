@@ -38,7 +38,7 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "_format": "prettier --write",
-    "format": "npm run format:src & npm run format:cms",
+    "format": "npm run format:src",
     "format:src": "npm run _format 'src/**/*.js'"
   },
   "pre-commit": [
