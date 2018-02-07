@@ -134,7 +134,7 @@ export default function Footer() {
               <Address>
                 <strong>München</strong>
                 <br />
-                Hans-Preissinger-Str. 8<br />
+                Hans-Preissinger-Str. 8 / Halle A<br />
                 81379 München<br />
                 +49 (0)89 215 407 2-0
               </Address>
