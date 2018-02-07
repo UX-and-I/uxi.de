@@ -38,8 +38,8 @@ const Circle = styled.circle`
   fill: none;
   stroke: ${colors.gray2};
   stroke-width: ${px2rem(2)};
-  stroke-dashoffset: 124;
-  stroke-dasharray: 124;
+  stroke-dashoffset: 124px;
+  stroke-dasharray: 124px;
   transition: 350ms stroke-dashoffset cubic-bezier(1, 0, 0, 1);
 `
 
