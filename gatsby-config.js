@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `UX&I`,
+    siteUrl: 'https://uxi.de',
+    'themeColor': '#fff'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -36,6 +38,27 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    'gatsby-plugin-manifest',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "UX&I GmbH",
+        short_name: "UX%I",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#fff",
+        display: "minimal-ui",
+        icons: [
+          {
+            // Everything in /static will be copied to an equivalent
+            // directory in /public during development and build, so
+            // assuming your favicons are in /static/favicons,
+            // you can reference them here
+            src: `/favicon-192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          }
+        ]
+      }
+    }
   ],
 }
