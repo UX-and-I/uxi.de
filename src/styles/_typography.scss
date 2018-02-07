@@ -57,6 +57,22 @@ strong {
 }
 
 .cms-typo a {
+    position: relative;
     color: inherit;
-    box-shadow: inset 0px -6px 0 0 map-get($uxi-colors, cyan);
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: px2rem(-2);
+        left: 0;
+        width: 100%;
+        height: px2rem(2);
+        background-color: map-get($uxi-colors, gray2);
+        border-radius: px2rem(1);
+    }
+
+    &:hover:after {
+        background-color: map-get($uxi-colors, gray);
+    }
 }
