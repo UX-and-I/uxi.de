@@ -62,7 +62,10 @@ module.exports = class HTML extends React.Component {
           />
           <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
           {css}
-          <meta name="google-site-verification" content="MeGACw1YfQNPEXAiTZcJGbbZWV_1itf20NQ23H_-3Pc" />
+          <meta
+            name="google-site-verification"
+            content="MeGACw1YfQNPEXAiTZcJGbbZWV_1itf20NQ23H_-3Pc"
+          />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
