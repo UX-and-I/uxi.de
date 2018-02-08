@@ -216,13 +216,34 @@ export const ButtonLink = Button.withComponent('a')
 export const ButtonRouterLink = Button.withComponent(RouterLinkOriginal)
 
 export const Link = styled.a`
-  color: ${props => (props.white ? colors.white : colors.text)};
-  box-shadow: inset 0px -6px 0 0 ${colors.cyan};
+  position: relative;
+
+  color: ${props => (props.white ? colors.white : 'inherit')};
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: ${px2rem(-2)};
+    left: 0;
+    width: 100%;
+    height: ${px2rem(2)};
+    background-color: ${colors.gray2};
+    border-radius: ${px2rem(1)};
+  }
+
+  &:hover:after {
+    background-color: ${colors.gray};
+  }
 `
 
 export const DryLink = styled(Link)`
   color: inherit;
   text-decoration: inherit;
+
+  &:after {
+    content: none;
+  }
 `
 
 export const RouterLink = Link.withComponent(RouterLinkOriginal)
