@@ -231,7 +231,10 @@ export const ServicesPageTemplate = ({
         <P>
           Wir helfen gerne bei der Ideenfindung und beraten bei verzwickten
           UX-Problemen.<br />
-          Schreiben geht auch – wir rufen gerne zurück.
+          <Link href="mailto:info@uxi.de" title="E-Mail Link zu info@uxi.de">
+            Schreiben geht auch
+          </Link>{' '}
+          – wir rufen gerne zurück.
         </P>
       </SectionCover>
       <HrThin />

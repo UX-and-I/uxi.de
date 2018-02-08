@@ -106,7 +106,10 @@ export default function Footer() {
           <MailFifty>
             <MobileSpacing>
               <MailTo>
-                Mail an uns: <a href="mailto:info@uxi.de">info@uxi.de</a>
+                Mail an uns:{' '}
+                <a href="mailto:info@uxi.de" title="E-Mail Link zu info@uxi.de">
+                  info@uxi.de
+                </a>
               </MailTo>
             </MobileSpacing>
           </MailFifty>

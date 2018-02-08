@@ -152,9 +152,9 @@ export const TeamPageTemplate = ({
 
               <HistoricalEvent date="08/2017" title="Zweiter Standort München">
                 Nach langjähriger und verdammt guter Partnerschaft konnten wir
-                die lieben Münchener Kollegen der vormals form & code GmbH als
+                die lieben Münchener der vormals Form & Code GmbH als
                 vollwertige UX&I Kollegen gewinnen und sind auf einen Schlag
-                vier Kollegen mehr. Willkommen Bernd, Ju, Pinsha und Walter –
+                vier Köpfe mehr. Willkommen Bernd, Ju, Pinsha und Walter –
                 allesamt Frontend-Füchse.
               </HistoricalEvent>
 
