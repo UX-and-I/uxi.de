@@ -496,9 +496,9 @@ export const JobsPageTemplate = ({
                           Dinge beizubringen :)
                         </DotListItem>
                         <DotListItem>
-                          Du bist weniger an CSS interessiert und deine echte
-                          Leidenschaft sind Frontend-Apps? Dann wirst auch du
-                          dich bei uns wohlfühlen!
+                          Du brennst für Frontend-Apps und nicht so sehr für
+                          CSS? Kein Problem – du wist dich trotzdem bei uns
+                          wohlfühlen.
                         </DotListItem>
                       </DotList>
                     </Fifty>
