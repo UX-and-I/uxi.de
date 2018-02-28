@@ -445,13 +445,30 @@ export const JobsPageTemplate = ({
                   </TextUtil>
                 </JobOffer>
 
-                <JobOffer title="Senior Frontend-Developer (m/w)">
+                <JobOffer title="Frontend-Developer (m/w)">
                   <Measure>
                     <P>
-                      Unsere Front-End-Developer erarbeiten zusammen mit UX- und
-                      UI-Designern ansprechende User-Interfaces für Kunden aus
-                      verschiedenen Branchen wie Industrie, Medizin oder dem
-                      Consumer-Bereich.
+                      Als Frontend-Entwickler gibst du unseren Visionen ein
+                      Fundament: Durch dich werden die Konzepte und Designs
+                      deiner Kollegen lebendig und du fühlst dich verantwortlich
+                      dafür, dem User Interface den letzten Schliff zu
+                      verpassen. Du bist ein sozialer Teamplayer, hast ein gutes
+                      Gespür für Interaktionsdesign, bist stets über die
+                      neuesten Web-Technologien informiert und kannst auch gut
+                      zwischen Design und (Backend-)Technik vermitteln. Pattern
+                      Libraries und State-of-the-Art Frameworks sind dein
+                      zweites Zuhause und du ruhst erst, wenn die Ergebnisse
+                      deinen hohen Ansprüchen genügen. Mit deinen Konzepten und
+                      deinen schlanken Prozessen holst du nicht nur unsere
+                      Stakeholder, sondern auch beteiligte
+                      Full-Stack-Entwicklungsteams und natürlich unsere Nutzer
+                      ab.
+                    </P>
+                    <P>
+                      Von ersten Prototypen über knackige Webapps bis zur
+                      liebevollen Pflege von Design-Systemen und Pattern
+                      Libraries erwarten dich abwechslungsreiche und
+                      anspruchsvolle Entwicklungsaufgaben.
                     </P>
                   </Measure>
                   <Row>
@@ -459,58 +476,29 @@ export const JobsPageTemplate = ({
                       <ListHeadline>Deine Skills</ListHeadline>
                       <DotList>
                         <DotListItem>
-                          Tiefes Verständnis von HTML5, CSS3, JavaScript und
-                          responsive Web
+                          Du bringst tiefes Verständnis und Routine im Umgang
+                          mit Webstandards in HTML, CSS und Javascript.
                         </DotListItem>
                         <DotListItem>
-                          Erfahrung im Umgang mit CSS Architekturen
-                          (ITCSS/OOCSS) und Naming conventions (BEM) sowie
-                          MaintainableCSS
+                          Du hast Erfahrung im Entwerfen von CSS-Architekturen
+                          für nachhaltige und pflegbare Styles.
                         </DotListItem>
                         <DotListItem>
-                          Erfahrung im Umgang mit aktuellen Taskrunnern
-                          (NodeJS/GulpJS) und CSS Prozessoren (SASS, PostCSS)
+                          Du verwendest eine zeitgemäße Toolchain für deine
+                          Frontend-Entwicklung und Build-Prozesse.
                         </DotListItem>
                         <DotListItem>
-                          Du nutzt Versionsverwaltung (Git) und kennst die
-                          agilen Entwicklungsmethoden
+                          Semantik, Web-Accessibility und -Performance sind dir
+                          wichtig.
                         </DotListItem>
                         <DotListItem>
-                          Erfahrung mit Web Accessibility
+                          Du möchtest dich weiterbilden – und hast Lust, uns
+                          Dinge beizubringen :)
                         </DotListItem>
                         <DotListItem>
-                          Erfahrungen mit Web Performance-Optimierung
-                        </DotListItem>
-                        <DotListItem>
-                          Gute Kenntnisse im Bereich TDD (insbesondere UI-Tests)
-                        </DotListItem>
-                        <DotListItem>
-                          Kenntnisse zur Integration von RESTful APIs und Web
-                          Services
-                        </DotListItem>
-                        <DotListItem>
-                          Optimalerweise Erfahrung mit automatisierten
-                          Testwerkzeugen (Browserstack, Saucelabs, etc.)
-                        </DotListItem>
-                        <DotListItem>
-                          Optimalerweise Erfahrung im Bereich Continuous
-                          Integration
-                        </DotListItem>
-                        <DotListItem>
-                          Teamfähigkeit, Motivation, neue Impulse und Ideen
-                        </DotListItem>
-                        <DotListItem>
-                          Überzeugende Kommunikationsfähigkeiten
-                        </DotListItem>
-                        <DotListItem>
-                          Deutsch und Englisch beherrschst Du fließend
-                        </DotListItem>
-                        <DotListItem>
-                          Strukturierte, eigenverantwortliche Arbeitsweise
-                        </DotListItem>
-                        <DotListItem>
-                          Lust, dich weiterzubilden – Lust, uns Dinge
-                          beizubringen :)
+                          Du bist weniger an CSS interessiert und deine echte
+                          Leidenschaft sind Frontend-Apps? Dann wirst auch du
+                          dich bei uns wohlfühlen!
                         </DotListItem>
                       </DotList>
                     </Fifty>
@@ -518,21 +506,31 @@ export const JobsPageTemplate = ({
                       <ListHeadline>Deine Aufgaben</ListHeadline>
                       <DotList>
                         <DotListItem>
-                          Verantwortung von Neuentwicklungen aber auch
-                          Weiterentwicklungen, Optimierungen und Testing
-                          bestehender Anwendungen.
+                          Du arbeitest auf <strong>Augenhöhe</strong> mit deinen
+                          Kollegen in einem agilen Team.
                         </DotListItem>
                         <DotListItem>
-                          Umsetzung der von uns entwickelten Spezifikationen
-                          mittels Web-Standard-Technologien
+                          Du stehst im ständigen Austausch und arbeitest Hand in
+                          Hand mit Backend-Entwicklern, Visual Designern und
+                          UX-Konzeptern.
                         </DotListItem>
                         <DotListItem>
-                          Implementierung von Test-Mechanismen und Aufbereitung
-                          der Ergebnisse
+                          Du nutzt die Tools, die dir am besten taugen (aktuell
+                          nutzen wir unter anderem React.js, jest,
+                          styled-components, fractal, storybook, git, scss,
+                          node.js, gatsby.js).
                         </DotListItem>
-                        <DotListItem>Dokumentation von Ergebnissen</DotListItem>
                         <DotListItem>
-                          Hand in Hand mit Designern und Konzeptern arbeiten{' '}
+                          Du hältst dich mit der 20%-Zeit{' '}
+                          <strong>auf dem Laufenden</strong> und bleibst am Zahn
+                          der Zeit.
+                        </DotListItem>
+                        <DotListItem>
+                          Wir entwickeln unsere gemeinsamen Workflows weiter.
+                        </DotListItem>
+                        <DotListItem>
+                          Mit deinem Gespür für gute Gestaltung trägst du zur
+                          hohen Qualität bei.
                         </DotListItem>
                       </DotList>
                     </Fifty>
