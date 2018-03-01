@@ -476,8 +476,8 @@ export const JobsPageTemplate = ({
                       <ListHeadline>Deine Skills</ListHeadline>
                       <DotList>
                         <DotListItem>
-                          Du bringst tiefes Verständnis und Routine im Umgang
-                          mit Webstandards in HTML, CSS und Javascript.
+                          Du bringst ein tiefes Verständnis für Webstandards mit
+                          und beherrschst HTML, CSS und Javascript im Schlaf.
                         </DotListItem>
                         <DotListItem>
                           Du hast Erfahrung im Entwerfen von CSS-Architekturen
