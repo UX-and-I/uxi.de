@@ -317,6 +317,15 @@ export const JobsPageTemplate = ({
                           Neuland
                         </DotListItem>
                         <DotListItem>
+                          Im Idealfall hast du Erfahrung in qualitativem
+                          Research zum Beispiel in Form von Leitfaden-Interviews
+                          oder Feldforschung
+                        </DotListItem>
+                        <DotListItem>
+                          Optimalerweise hast du Erfahrung mit der Planung,
+                          Durchführung und Auswertung von Usability Tests
+                        </DotListItem>
+                        <DotListItem>
                           Deutsch und Englisch beherrschst Du fließend
                         </DotListItem>
                       </DotList>
