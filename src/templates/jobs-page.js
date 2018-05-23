@@ -215,9 +215,9 @@ export const JobsPageTemplate = ({
               <TeaserHeadline>Und so kannst du dich bewerben:</TeaserHeadline>
               <OrderedList>
                 <OrderedListItem>
-                  <a href="mailto:info@uxi.de">Schreib uns</a> oder ruf einfach
-                  mal an. Sende uns deine Bewerbung, gerne mit Arbeitsproben und
-                  Gehaltsvorstellung.
+                  <a href="mailto:bewerbung@uxi.de">Schreib uns</a> oder ruf
+                  einfach mal an. Sende uns deine Bewerbung, gerne mit
+                  Arbeitsproben und Gehaltsvorstellung.
                 </OrderedListItem>
 
                 <OrderedListItem>
@@ -364,7 +364,7 @@ export const JobsPageTemplate = ({
                   <TextUtil align="center">
                     <ButtonLink
                       dark
-                      href="mailto:info@uxi.de?subject=(Senior)%20UX-Designer%2FIn"
+                      href="mailto:bewerbung@uxi.de?subject=(Senior)%20UX-Designer%2FIn"
                     >
                       Bewirb dich jetzt
                     </ButtonLink>
@@ -447,7 +447,7 @@ export const JobsPageTemplate = ({
                   <TextUtil align="center">
                     <ButtonLink
                       dark
-                      href="mailto:info@uxi.de?subject=(Senior)%20UI-Designer%2FIn"
+                      href="mailto:bewerbung@uxi.de?subject=(Senior)%20UI-Designer%2FIn"
                     >
                       Bewirb dich jetzt
                     </ButtonLink>
@@ -548,7 +548,7 @@ export const JobsPageTemplate = ({
                   <TextUtil align="center">
                     <ButtonLink
                       dark
-                      href="mailto:info@uxi.de?subject=(Senior)%20Frontend%20Developer%2FIn"
+                      href="mailto:bewerbung@uxi.de?subject=(Senior)%20Frontend%20Developer%2FIn"
                     >
                       Bewirb dich jetzt
                     </ButtonLink>
