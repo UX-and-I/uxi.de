@@ -35,3 +35,15 @@ export const BgImageSection = styled.section`
     opacity: 0.15;
   }
 `
+
+export const BgHeroImageSection = styled.section`
+  height: 600px;
+  padding: ${px2rem(80)} 0;
+  background: url(${props => props.src}) no-repeat center center;
+  background-size: cover;
+`
+
+export const BgHeroImageSectionContent = styled(BgImageSectionContent)`
+  position: absolute;
+  bottom: 0;
+`

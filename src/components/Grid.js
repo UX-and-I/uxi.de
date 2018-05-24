@@ -13,6 +13,7 @@ export const gutter = 39
 export const Grid = styled.div`
   max-width: ${props => px2rem(widths[props.size])};
   padding: ${props => (props.size === 'wide' ? undefined : `0 ${px2rem(30)}`)};
+  height: ${props => (props.fullHeight ? '100%' : undefined)};
 
   width: 100%;
   margin: 0 auto;
@@ -52,6 +53,13 @@ export const Row = styled.div`
   }
 `
 
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+`
+
 export const Cell = styled.div`
   margin-left: ${props => (props.pushRight ? 'auto' : undefined)};
   margin-right: ${props => (props.pushLeft ? 'auto' : undefined)};
@@ -72,6 +80,12 @@ export const Fifty = styled(Cell)`
 export const Auto = styled(Cell)`
   ${media.minTablet} {
     flex: 0 0 auto;
+  }
+`
+
+export const Stretchy = styled(Cell)`
+  ${media.minTablet} {
+    flex: 1 1 auto;
   }
 `
 

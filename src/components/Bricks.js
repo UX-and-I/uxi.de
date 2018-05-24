@@ -20,6 +20,13 @@ export const Hero = styled.h1`
   }
 `
 
+export const ImageHero = styled(Hero)`
+  margin-bottom: 0;
+  max-width: 15em;
+  font-family: ${familySansSerif};
+  color: ${colors.imageHero};
+`
+
 export const HeroSub = styled.h2`
   font-size: ${px2rem(22)};
   font-weight: normal;
@@ -65,6 +72,15 @@ export const TeaserHeadline = styled.h3`
 
   @media (min-width: ${px2rem(786)}) {
     max-width: 80%;
+  }
+`
+
+export const TeaserHeadlineSlim = styled(TeaserHeadline)`
+  margin: 0 0 ${px2rem(30)} 0;
+  font-weight: 400;
+
+  @media (min-width: ${px2rem(786)}) {
+    max-width: 90%;
   }
 `
 

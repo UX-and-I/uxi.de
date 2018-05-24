@@ -25,6 +25,7 @@ export const colors = {
   gray3: '#E5E5E5',
 
   hero: '#020621',
+  imageHero: '#fff',
   text: '#020621',
   title: 'rgba(2, 6, 33, 0.75)',
   hr: 'rgba(173, 173, 173, 0.34)',
