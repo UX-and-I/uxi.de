@@ -6,7 +6,7 @@ import {
   TeaserHeadlineSlim,
   TeaserSubline,
   ColoredLink,
-  Spacing,
+  SmallSpacing,
   HrThin,
 } from '../components/Bricks'
 import {
@@ -134,13 +134,13 @@ export const CaseStudyTemplate = ({
             src={require('../img/metrovisual1@2x.jpg')}
             ratio={1200 / 675}
           />
-          <Spacing top bottom full>
+          <SmallSpacing top bottom full>
             <Image
               width={1200}
               src={require('../img/metrovisual2@2x.jpg')}
               ratio={1200 / 675}
             />
-          </Spacing>
+          </SmallSpacing>
           <Image
             width={1200}
             src={require('../img/metrovisual3@2x.jpg')}

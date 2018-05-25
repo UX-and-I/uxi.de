@@ -23,6 +23,7 @@ export const Hero = styled.h1`
 export const ImageHero = styled(Hero)`
   margin-bottom: 0;
   max-width: 15em;
+  font-weight: 600;
   font-family: ${familySansSerif};
   color: ${colors.imageHero};
 `
@@ -76,7 +77,7 @@ export const TeaserHeadline = styled.h3`
 `
 
 export const TeaserHeadlineSlim = styled(TeaserHeadline)`
-  margin: 0 0 ${px2rem(30)} 0;
+  margin: 0 0 ${px2rem(56)} 0;
   font-weight: 400;
 
   @media (min-width: ${px2rem(786)}) {
@@ -331,6 +332,12 @@ export const TextUtil = styled.div`
 export const Spacing = styled.div`
   margin-top: ${props => (props.top ? px2rem(54) : '0')};
   margin-bottom: ${props => (props.bottom ? px2rem(54) : '0')};
+  width: ${props => (props.full ? '100%' : null)};
+`
+
+export const SmallSpacing = styled.div`
+  margin-top: ${props => (props.top ? px2rem(27) : '0')};
+  margin-bottom: ${props => (props.bottom ? px2rem(27) : '0')};
   width: ${props => (props.full ? '100%' : null)};
 `
 
