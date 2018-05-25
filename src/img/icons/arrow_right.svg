@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Seiten" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Template" transform="translate(-1286.000000, -644.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Related" transform="translate(0.000000, 600.000000)">
+                <g id="Left" transform="translate(882.000000, 24.000000)">
+                    <g id="Thumb" transform="translate(346.000000, 0.000000)">
+                        <polygon id="Shape" points="58 27 72.17 27 68.59 30.59 70 32 76 26 70 20 68.59 21.41 72.17 25 58 25"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

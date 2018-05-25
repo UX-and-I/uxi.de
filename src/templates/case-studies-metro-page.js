@@ -31,6 +31,7 @@ import { DotList, DotListItem } from '../components/DotList'
 import { Quote } from '../components/Quote'
 import { px2em } from '../constants'
 import { LinkItemWithImage } from '../components/LinkItemWithImage'
+import { SameLevelNavigtion } from '../components/SameLevelNavigation'
 
 export const CaseStudyTemplate = ({
   title,
@@ -57,6 +58,15 @@ export const CaseStudyTemplate = ({
           </Column>
         </Grid>
       </BgHeroImageSection>
+      <SameLevelNavigtion
+        prevUrl="#"
+        prevCaption="Eine mobile Companion App"
+        prevColor="#8DA8CE"
+        nextUrl="#"
+        nextCaption="Microservice APM für ein Silicon Valley Startup"
+        nextColor="#162225"
+      />
+      <HrThin />
       <Section>
         <Grid size="full">
           <Row>
