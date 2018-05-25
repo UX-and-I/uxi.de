@@ -84,6 +84,11 @@ export const TeaserHeadlineSlim = styled(TeaserHeadline)`
   }
 `
 
+export const TeaserHeadlineCentered = styled(TeaserHeadline)`
+  margin: ${px2rem(20)} auto;
+  color: ${props => props.color};
+`
+
 export const TeaserSubline = styled.h4`
   margin: ${px2rem(20)} 0;
 
@@ -111,10 +116,10 @@ export const ListHeadline = styled.h3`
 
 export const Section = styled.section`
   background: ${props => (props.gray ? colors.nearlyWhite : undefined)};
-  padding: ${px2rem(56)} 0;
+  padding: ${props => (props.noPadding ? 0 : px2rem(56))} 0;
 
   ${media.minTablet} {
-    padding: ${px2rem(95)} 0;
+    padding: ${props => (props.noPadding ? 0 : px2rem(95))} 0;
   }
 `
 
@@ -260,6 +265,10 @@ export const DryLink = styled(Link)`
   &:after {
     content: none;
   }
+`
+
+export const ColoredLink = styled(DryLink)`
+  color: ${props => props.color};
 `
 
 export const RouterLink = Link.withComponent(RouterLinkOriginal)

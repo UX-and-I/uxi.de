@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { px2rem, media } from '../constants'
+import { px2rem, media, colors } from '../constants'
 
 const widths = {
   wide: 1440,
@@ -12,8 +12,9 @@ export const gutter = 39
 
 export const Grid = styled.div`
   max-width: ${props => px2rem(widths[props.size])};
-  padding: ${props => (props.size === 'wide' ? undefined : `0 ${px2rem(30)}`)};
   height: ${props => (props.fullHeight ? '100%' : undefined)};
+  padding: ${props => (props.size === 'wide' ? undefined : `0 ${px2rem(30)}`)};
+  background-color: ${props => (props.gray ? colors.nearlyWhite : undefined)};
 
   width: 100%;
   margin: 0 auto;
@@ -31,6 +32,20 @@ Grid.defaultProps = {
   size: 'normal',
 }
 
+export const PaddedGrid = styled(Grid)`
+  padding-top: ${px2rem(56)};
+  padding-bottom: ${px2rem(56)};
+
+  ${media.minTablet} {
+    padding-top: ${px2rem(95)};
+    padding-bottom: ${px2rem(95)};
+  }
+`
+
+export const UnpaddedGrid = styled(Grid)`
+  padding: 0;
+`
+
 export const Row = styled.div`
   box-sizing: border-box;
 
@@ -44,6 +59,7 @@ export const Row = styled.div`
     display: flex;
     flex-wrap: wrap;
 
+    justify-content: ${props => (props.middle ? 'center' : undefined)};
     align-items: ${props => (props.center ? 'center' : undefined)};
     margin: 0 0 0 ${props => (props.noGutter ? 0 : px2rem(-1 * gutter))};
 
@@ -52,6 +68,7 @@ export const Row = styled.div`
     }
   }
 `
+// @TODO: witch naming of center and middle for Row props
 
 export const Column = styled.div`
   display: flex;

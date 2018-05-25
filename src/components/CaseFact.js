@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Row } from './Grid'
-import { familySansSerif, px2rem, media } from '../constants'
+import { familySansSerif, px2rem, media, colors } from '../constants'
 
 export const Wrapper = styled.div`
   display: inline-block;
   margin-bottom: ${px2rem(20)};
   min-width: 120px;
   padding-right: ${px2rem(20)};
+  color: ${colors.text};
 
   ${media.minTablet} {
     display: block;

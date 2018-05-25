@@ -1,19 +1,36 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { ImageHero, Section, TeaserHeadlineSlim } from '../components/Bricks'
+import {
+  ImageHero,
+  Section,
+  TeaserHeadlineSlim,
+  TeaserSubline,
+  ColoredLink,
+  Spacing,
+  HrThin,
+} from '../components/Bricks'
 import {
   BgHeroImageSection,
   BgHeroImageSectionContent,
 } from '../components/BgImageSection'
 import {
   Grid,
+  PaddedGrid,
+  UnpaddedGrid,
   Column,
   Auto,
   Quarter,
   Row,
   SeventyFive,
+  Fifty,
+  Third,
 } from '../components/Grid'
+import { Image } from '../components/Image'
 import { CaseFact } from '../components/CaseFact'
+import { DotList, DotListItem } from '../components/DotList'
+import { Quote } from '../components/Quote'
+import { px2em } from '../constants'
+import { LinkItemWithImage } from '../components/LinkItemWithImage'
 
 export const CaseStudyTemplate = ({
   title,
@@ -27,7 +44,7 @@ export const CaseStudyTemplate = ({
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <BgHeroImageSection src={require('../img/metro.jpg')}>
+      <BgHeroImageSection src={require('../img/metro@2x.jpg')}>
         <Grid fullHeight size="full">
           <Column>
             <Auto>
@@ -46,9 +63,13 @@ export const CaseStudyTemplate = ({
             <SeventyFive>
               <TeaserHeadlineSlim>
                 Zusammen mit der &nbsp;
-                <a href="https://www.metroag.de/" target="_blank">
+                <ColoredLink
+                  color="#090B8D"
+                  href="https://www.metroag.de/"
+                  target="_blank"
+                >
                   METRO AG
-                </a>
+                </ColoredLink>
                 &nbsp; haben wir eine Sortimentierungsplattform entwickelt, die
                 für den Einkauf durchgängige, effektive und erweiterbare
                 Arbeitsabläufe ermöglicht.
@@ -65,6 +86,136 @@ export const CaseStudyTemplate = ({
           </Row>
         </Grid>
       </Section>
+      <Section noPadding>
+        <Grid size="full">
+          <Row>
+            <Auto>
+              <TeaserSubline>Ziele</TeaserSubline>
+            </Auto>
+          </Row>
+          <Row>
+            <Fifty>
+              <DotList>
+                <DotListItem>
+                  Zusammenführung unterschiedlicher Programme zu einem
+                  effektiven Tool
+                </DotListItem>
+                <DotListItem>
+                  Ermöglichung effizienter und strukturierter Arbeitsabläufe
+                </DotListItem>
+              </DotList>
+            </Fifty>
+            <Fifty>
+              <DotList>
+                <DotListItem>Intuitives Arbeiten für die Anwender</DotListItem>
+                <DotListItem>
+                  Verwendung eines modernen und ansprechenden Oberflächenlayouts
+                </DotListItem>
+                <DotListItem>Einfache Erweiter- und Wartbarkeit</DotListItem>
+              </DotList>
+            </Fifty>
+          </Row>
+        </Grid>
+      </Section>
+      <Section>
+        <UnpaddedGrid size="full">
+          <Image
+            width={1200}
+            src={require('../img/metrovisual1@2x.jpg')}
+            ratio={1200 / 675}
+          />
+          <Spacing top bottom full>
+            <Image
+              width={1200}
+              src={require('../img/metrovisual2@2x.jpg')}
+              ratio={1200 / 675}
+            />
+          </Spacing>
+          <Image
+            width={1200}
+            src={require('../img/metrovisual3@2x.jpg')}
+            ratio={1200 / 675}
+          />
+        </UnpaddedGrid>
+      </Section>
+      <Section noPadding>
+        <Grid size="full">
+          <Row center middle>
+            <SeventyFive>
+              <Quote name="Melania Fashonista" company="METRO AG">
+                “Super einfach, super schnell, super awesome! Wir hätten nie
+                gedacht, dass ein Warenwirtschaftssystem so geil sein kann!”
+              </Quote>
+            </SeventyFive>
+          </Row>
+        </Grid>
+      </Section>
+      <Section>
+        <PaddedGrid size="full" gray>
+          <Row>
+            <Auto>
+              <TeaserSubline>Outcomes</TeaserSubline>
+            </Auto>
+          </Row>
+          <Row>
+            <Third>
+              <DotList>
+                <DotListItem>
+                  Zusammenführung unterschiedlicher Programme zu einem
+                  effektiven Tool
+                </DotListItem>
+                <DotListItem>
+                  Ermöglichung effizienter und strukturierter Arbeitsabläufe
+                </DotListItem>
+              </DotList>
+            </Third>
+            <Third>
+              <DotList>
+                <DotListItem>Intuitives Arbeiten für die Anwender</DotListItem>
+                <DotListItem>
+                  Verwendung eines modernen und ansprechenden Oberflächenlayouts
+                </DotListItem>
+                <DotListItem>Einfache Erweiter- und Wartbarkeit</DotListItem>
+              </DotList>
+            </Third>
+            <Third>
+              <DotList>
+                <DotListItem>Intuitives Arbeiten für die Anwender</DotListItem>
+                <DotListItem>
+                  Verwendung eines modernen und ansprechenden Oberflächenlayouts
+                </DotListItem>
+                <DotListItem>Einfache Erweiter- und Wartbarkeit</DotListItem>
+              </DotList>
+            </Third>
+          </Row>
+        </PaddedGrid>
+      </Section>
+      <HrThin />
+      <Section>
+        <Grid size="full">
+          <Row>
+            <Fifty>
+              <LinkItemWithImage
+                src={require('../img/axa_teaser.jpg')}
+                width={580}
+                ratio={580 / 326}
+                caption="Eine mobile Companion App"
+                href="#"
+              />
+            </Fifty>
+            <Fifty>
+              <LinkItemWithImage
+                src={require('../img/instana_teaser.jpg')}
+                width={580}
+                ratio={580 / 326}
+                caption="Microservice APM für ein Silicon Valley Start-Up"
+                href="#"
+              />
+            </Fifty>
+          </Row>
+        </Grid>
+      </Section>
+      <HrThin />
     </div>
   )
 }
