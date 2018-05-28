@@ -70,6 +70,10 @@ export const Row = styled.div`
 `
 // @TODO: witch naming of center and middle for Row props
 
+export const SpacedRow = styled(Row)`
+  justify-content: space-between;
+`
+
 export const Column = styled.div`
   display: flex;
   flex-direction: column;

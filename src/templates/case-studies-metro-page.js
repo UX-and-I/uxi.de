@@ -61,10 +61,10 @@ export const CaseStudyTemplate = ({
       <SameLevelNavigtion
         prevUrl="#"
         prevCaption="Eine mobile Companion App"
-        prevColor="#8DA8CE"
+        prevImage={require('../img/axa_thumb@2x.jpg')}
         nextUrl="#"
         nextCaption="Microservice APM für ein Silicon Valley Startup"
-        nextColor="#162225"
+        nextImage={require('../img/instana_thumb@2x.jpg')}
       />
       <HrThin />
       <Section>
@@ -206,7 +206,7 @@ export const CaseStudyTemplate = ({
           <Row>
             <Fifty>
               <LinkItemWithImage
-                src={require('../img/axa_teaser.jpg')}
+                src={require('../img/axa_teaser@2x.jpg')}
                 width={580}
                 ratio={580 / 326}
                 caption="Eine mobile Companion App"
@@ -215,7 +215,7 @@ export const CaseStudyTemplate = ({
             </Fifty>
             <Fifty>
               <LinkItemWithImage
-                src={require('../img/instana_teaser.jpg')}
+                src={require('../img/instana_teaser@2x.jpg')}
                 width={580}
                 ratio={580 / 326}
                 caption="Microservice APM für ein Silicon Valley Start-Up"
