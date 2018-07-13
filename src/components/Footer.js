@@ -146,8 +146,8 @@ export default function Footer() {
               <Address>
                 <strong>Berlin</strong>
                 <br />
-                Kemperplatz 1 / Building A<br />
-                10785 Berlin<br />
+                Köpenicker Str. 31<br />
+                10179 Berlin<br />
                 +49 (0)30 120 82 30-0
               </Address>
             </SocialQuarter>
