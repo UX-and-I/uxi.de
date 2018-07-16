@@ -34,6 +34,7 @@ const Svg = styled.svg`
   width: ${px2rem(40)};
   height: ${px2rem(40)};
 `
+
 const Circle = styled.circle`
   fill: none;
   stroke: ${colors.gray2};
@@ -55,6 +56,15 @@ const HoverCircle = () => (
 
 export const SocialIcons = () => (
   <Wrapper>
+    <Link
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://dribbble.com/uxi"
+      title="UX&I auf Dribbble"
+    >
+      <Image src={require('../img/icons/dribbble.svg')} alt="Dribbble Icon" />
+      <HoverCircle />
+    </Link>
     <Link
       target="_blank"
       rel="noopener noreferrer"
