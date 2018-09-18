@@ -8,7 +8,7 @@ history:
   - date: 09/18
     title: Malle ist nur einmal im Jahr
     text: "Das ganze Team vereint beim Workshop unter freiem Himmel, Beine baumeln lassen, Segeln, Grill & Co."
-  - date: 07-08/18
+  - date: 07 – 08/18
     title: Zwei mal zwei auf einen Schlag
     text: "Manuel (FE/UX) und Martin (UX) werden Teil des Münchner Teams, Kay (FE) und Bernhard (UX) kommen in Düsseldorf dazu."
   - date: 07/18
@@ -17,7 +17,7 @@ history:
   - date: 06/18
     title: Klassenfahrt zur IA Konferenz
     text: "Mit geeinten Kräften aus München und Düsseldorf besuchen wir Tom in Berlin und genießen zwei Tage fruchtbaren Austauschs bei und zwischen spannenden Vorträgen - nicht zuletzt von Hias."
-  - date: 04-06/18
+  - date: 04 – 06/18
     title: Düsseldorf wächst weiter
     text: "Erst Jan, dann Arne, dann Markus verstärken das Team mit UX, FE und noch mehr UX."
   - date: 03/18
