@@ -43,7 +43,7 @@ history:
     text: "Zum 01.01.2017 wurde aus der DESIGN INSTANZ GbR die UX&I GmbH. Neben einem neuen Namen steigt auch die codecentric AG als Gesellschafter mit ein. Und wir haben unseren ersten eigenen Frontend-Dev: Christian!"
   - date: 01/2016
     title: Erster Betriebsausflug nach Amsterdam
-    text: ...zu den AWWWards mit der gesamten Crew – mittlerweile sind auch Niels (Design), Matthias (Design), Ralph (UX Freelance) und Eric (UX) dabei. Ob das eine gute Idee war? 🤪
+    text: ...zu den AWWWards mit der gesamten Crew – mittlerweile sind auch Niels (Design), Matthias (Design) und Eric (UX) dabei. Ob das eine gute Idee war? 🤪
   - date: 08/15
     title: Das dritte Büro
     text: Jetzt wird im Loft gearbeitet und im Hof geschaukelt. Von wegen 08/15!
