@@ -1,7 +1,7 @@
-const path = require("path");
+const path = require('path')
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+  const { createPage } = boundActionCreators
 
   return graphql(`
     {
@@ -22,8 +22,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
-      return Promise.reject(result.errors);
+      result.errors.forEach(e => console.error(e.toString()))
+      return Promise.reject(result.errors)
     }
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
@@ -31,8 +31,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         component: path.resolve(
           `src/templates/${String(node.frontmatter.templateKey)}.js`
         ),
-        context: {} // additional data can be passed via context
-      });
-    });
-  });
-};
+        context: {}, // additional data can be passed via context
+      })
+    })
+  })
+}
