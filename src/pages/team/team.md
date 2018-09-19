@@ -5,24 +5,24 @@ pageLabel: "Über uns"
 title: "UX&I – Über uns"
 description: "Wir bei UX&I sind alle technikaffine Profis. Soweit der Klappentext.  Vor allem sind wir aber menschlich, streiten uns, vertragen uns wieder und nehmen uns selbst nicht allzu ernst."
 history:
-  - date: 09/18
+  - date: 09/2018
     title: Malle ist nur einmal im Jahr
     text: "Das ganze Team vereint beim Workshop unter freiem Himmel, Beine baumeln lassen, Segeln, Grill & Co."
-  - date: 07 – 08/18
+  - date: 07 – 08/2018
     title: Zwei mal zwei auf einen Schlag
     text: "Manuel (FE/UX) und Martin (UX) werden Teil des Münchner Teams, Kay (FE) und Bernhard (UX) kommen in Düsseldorf dazu."
-  - date: 07/18
+  - date: 07/2018
     title: Sommerparty in Düsseldorf
     text: "Der Grill glühte und nach vielen Cocktails auch das Team."
-  - date: 06/18
+  - date: 06/2018
     title: Klassenfahrt zur IA Konferenz
-    text: "Mit geeinten Kräften aus München und Düsseldorf besuchen wir Tom in Berlin und genießen zwei Tage fruchtbaren Austauschs bei und zwischen spannenden Vorträgen - nicht zuletzt von Hias."
-  - date: 04 – 06/18
+    text: "Geballte Münchener und Düsseldorfer Einsatzkräfte tauschen sich fröhlich auf der IAK aus und sind durch Hias sogar auf der Bühne als Speaker vertreten."
+  - date: 04 – 06/2018
     title: Düsseldorf wächst weiter
     text: "Erst Jan, dann Arne, dann Markus verstärken das Team mit UX, FE und noch mehr UX."
-  - date: 03/18
+  - date: 03/2018
     title: Entlastung für die Chefs
-    text: "Alexandra kümmert sich ab jetzt um Finanzen und andere wichtige Dinge und München bekommt mit Hias Wrba einen weiteren Standortleiter und UX Experten."
+    text: "In Düsseldorf ist mit Alex endlich eine richtige Fachfrau am Start und bringt Ordnung in die Finanzen, während sich in München das UX-Urgestein Hias als zweiter Standortleiter eingroovt."
   - date: 11/2017
     title: Jetzt auch UX in München
     text: Mona ist mit an Bord und UX&I München ist jetzt fünfköpfig.
