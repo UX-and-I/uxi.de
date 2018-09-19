@@ -16,13 +16,13 @@ history:
     text: "Der Grill glühte und nach vielen Cocktails auch das Team."
   - date: 06/2018
     title: Klassenfahrt zur IA Konferenz
-    text: "Mit geeinten Kräften aus München und Düsseldorf besuchen wir Tom in Berlin und genießen zwei Tage fruchtbaren Austauschs bei und zwischen spannenden Vorträgen - nicht zuletzt von Hias."
+    text: "Geballte Münchener und Düsseldorfer Einsatzkräfte tauschen sich fröhlich auf der IAK aus und sind durch Hias sogar auf der Bühne als Speaker vertreten."
   - date: 04 – 06/2018
     title: Düsseldorf wächst weiter
     text: "Erst Jan, dann Arne, dann Markus verstärken das Team mit UX, FE und noch mehr UX."
   - date: 03/2018
     title: Entlastung für die Chefs
-    text: "Alexandra kümmert sich ab jetzt um Finanzen und andere wichtige Dinge und München bekommt mit Hias Wrba einen weiteren Standortleiter und UX Experten."
+    text: "In Düsseldorf ist mit Alex endlich eine richtige Fachfrau am Start und bringt Ordnung in die Finanzen, während sich in München das UX-Urgestein Hias als zweiter Standortleiter eingroovt."
   - date: 11/2017
     title: Jetzt auch UX in München
     text: Mona ist mit an Bord und UX&I München ist jetzt fünfköpfig.
