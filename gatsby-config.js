@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `UX&I`,
+    title: `UX&I GmbH – Digitale Produktschmiede`,
     siteUrl: 'https://uxi.de',
-    'themeColor': '#fff'
+    themeColor: '#fff',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -41,12 +41,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "UX&I GmbH",
-        short_name: "UX%I",
-        start_url: "/",
-        background_color: "#fff",
-        theme_color: "#fff",
-        display: "minimal-ui",
+        name: 'UX&I GmbH',
+        short_name: 'UX&I',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#fff',
+        display: 'minimal-ui',
         icons: [
           {
             // Everything in /static will be copied to an equivalent
@@ -56,9 +56,9 @@ module.exports = {
             src: `/favicon-192.png`,
             sizes: `192x192`,
             type: `image/png`,
-          }
-        ]
-      }
-    }
+          },
+        ],
+      },
+    },
   ],
 }
