@@ -506,7 +506,7 @@ export const JobsPageTemplate = ({
                         </DotListItem>
                         <DotListItem>
                           Du brennst für Frontend-Apps und nicht so sehr für
-                          CSS? Kein Problem – du wist dich trotzdem bei uns
+                          CSS? Kein Problem – du wirst dich trotzdem bei uns
                           wohlfühlen.
                         </DotListItem>
                       </DotList>
