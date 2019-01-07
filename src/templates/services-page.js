@@ -143,10 +143,10 @@ export const ServicesPageTemplate = ({
                   <p>
                     Im Laufe der Entwicklung eines Produkts ergeben sich meist
                     Änderungen und manchmal sogar komplette Richtungswechsel.
-                    Ständige Überprüfung und wiederkehrende Reflektion sind
-                    daher essentiell. Annahmen werden deshalb regelmäßig auf
-                    Erfolg und Innovationspotential überprüft und die Anwendung
-                    wird stets an die neuesten Erkenntnisse angepasst.
+                    Ständige Überprüfung und wiederkehrende Reflexion sind daher
+                    essentiell. Annahmen werden deshalb regelmäßig auf Erfolg
+                    und Innovationspotential überprüft und die Anwendung wird
+                    stets an die neuesten Erkenntnisse angepasst.
                     <br />
                     <br />
                     <strong>Deshalb ❤️ wir agiles Arbeiten.</strong>
