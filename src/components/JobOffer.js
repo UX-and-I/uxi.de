@@ -22,7 +22,7 @@ const Offices = styled.div`
   font-size: ${px2rem(16)};
 `
 
-const allOffices = ['Düsseldorf', 'München', 'Berlin']
+const allOffices = ['Düsseldorf', 'München', 'Berlin', 'Hamburg']
 
 const RevealCross = styled.div`
   position: absolute;
