@@ -374,71 +374,133 @@ export const JobsPageTemplate = ({
                 <JobOffer title="Senior UI-Designer (m/w)">
                   <Measure>
                     <P>
-                      Als UI-Designer gibst du digitalen Produkten ein Gesicht
-                      und machst sie dadurch erst erleb- und bedienbar. Deine
-                      Interfaces sind nicht nur modern gestaltet, sondern
-                      erfüllen auch die Bedürfnisse der Zielgruppe und machen
-                      alle Funktionen des Produktes optimal zugänglich. Es
-                      gelingt dir, die visuelle Sprache unserer Kunden auf ein
-                      digitales Produkt zu übertragen oder eine eigene Identität
-                      dafür zu entwerfen. Bei der Umsetzung deiner
-                      Interface-Visionen begleitest Du Kunden und agile
-                      Development-Teams unterschiedlicher Größen. Ein
-                      glücklicher Anwender ist dir dabei wichtiger als der
-                      nächste Designpreis und Pattern Libraries sind kein
-                      Neuland für dich.
+                      Wenn Du als erfahrener Designer leidenschaftlich gern
+                      digitale Produkte gestaltest, Human-Centered-Design für
+                      dich keine Floskel ist und Du am Liebsten komplexe
+                      Probleme löst, dann bist Du bei uns richtig. Wenn deine
+                      Entwürfe und Prototypen nicht nur dein Team inspirieren,
+                      sondern vorallem den (Test-)Nutzer begeistern, dann suchen
+                      wir dich. Bitte Weiterlesen.
                     </P>
                   </Measure>
                   <Row>
                     <Fifty>
-                      <ListHeadline>Deine Skills</ListHeadline>
+                      <ListHeadline>Du bringst mit:</ListHeadline>
                       <DotList>
                         <DotListItem>
-                          Mindestens fünf Jahre Berufserfahrung im Bereich User
-                          Interface oder Visual Design
+                          Du hast min. 5 Jahre Berufserfahrung als Designer für
+                          Digitalagenturen oder Unternehmen sammeln können.
                         </DotListItem>
                         <DotListItem>
-                          Sehr gute Kenntnisse in Sketch o.ä. Tools
+                          Du hast ein gutes Gespür für exzellente Gestaltung und
+                          optimalerweise Erfahrungen in digitaler
+                          Produktentwicklung in agilen Teams.
                         </DotListItem>
                         <DotListItem>
-                          Sehr gutes Auge für Ästhetik und Liebe zum Detail
+                          Du bist lernbegeistert: Auch wenn deine Designs schon
+                          grandios aussehen ist dir jedes Nutzer-Feedback
+                          willkommen und du kannst mit Kritik und Anregungen
+                          professionell umgehen.
                         </DotListItem>
                         <DotListItem>
-                          Grundverständnis von guter UX und Interesse an
-                          Konzept-Diskussionen
+                          Du bist kommunikationsstark und hast ein solides
+                          Methoden- und Theoriefundament: Du verargumentierst
+                          deine Design-Entscheidungen sicher vor dem Team und
+                          deinen Auftraggebern und teilst dein gelerntes Wissen
+                          und deine Erfahrungen gerne mit Kollegen.
                         </DotListItem>
                         <DotListItem>
-                          Grundlegende Kenntnisse von
-                          Software-Entwicklungsprozessen
+                          Du hast eine gesunde Selbsteinschätzung und
+                          reflektierst auch dein persönliches
+                          Entwicklungspotential.
                         </DotListItem>
                         <DotListItem>
-                          Überzeugende Kommunikationsfähigkeiten
+                          Du arbeitest selbstorganisiert, strukturiert und
+                          eigenverantwortlich und gehst respektvoll mit deiner
+                          Zeit und den Ressourcen deiner Kollegen um.
                         </DotListItem>
                         <DotListItem>
-                          Deutsch und Englisch beherrschst Du fließend
+                          Du hast ein Herz für Systeme und kannst auch mit
+                          objekt-orientiertem Design umgehen.
                         </DotListItem>
                         <DotListItem>
-                          Strukturierte, eigenverantwortliche Arbeitsweise
+                          Deine Entwürfe sind per se barrierefrei und gelungene
+                          Ergonomie ist für dich selbstverständlich.
+                        </DotListItem>
+                        <DotListItem>
+                          Du beherrschst Deutsch und Englisch fließend.
                         </DotListItem>
                       </DotList>
                     </Fifty>
                     <Fifty>
-                      <ListHeadline>Deine Aufgaben</ListHeadline>
+                      <ListHeadline>
+                        Deine Aufgaben als Designer bei UX&I:
+                      </ListHeadline>
                       <DotList>
                         <DotListItem>
-                          Kreation von modernen, sauberen und modularen
-                          Interfaces
+                          Design-Ownership für User Interfaces. Du leitest die
+                          Gestaltung in deinem Projekt und definierst
+                          Design-Sprachen im Sinne des Kunden und der Nutzer des
+                          jeweiligen Produktes.
                         </DotListItem>
                         <DotListItem>
-                          Erstellen und Pflegen von Design Systemen und Pattern
-                          Libraries
+                          Kollaboration mit interdisziplinären Produkt-Teams. In
+                          enger Zusammenarbeit vor Ort beim Kunden oder bei uns
+                          im Büro findest Du mit Developern, UX-Designern,
+                          Product Ownern, Stakeholdern und Nutzern gemeinsam die
+                          optimale Lösung für das jeweilige Problem.
                         </DotListItem>
                         <DotListItem>
-                          Gestaltung von Icons, die man nicht unbedingt in
-                          standard Icon-Sets findet
+                          Design-Lösungen durch Prototypen validieren. Du
+                          erkennst, wann deine Designs pixel-perfect sein müssen
+                          oder wann ein Lo-Fi Mockup besser angebracht ist.
                         </DotListItem>
                         <DotListItem>
-                          Hand in Hand mit Konzeptern und Entwicklern arbeiten
+                          Empathisch sein. Unsere Teams experimentieren,
+                          recherchieren und wollen erst den Nutzer und seinen
+                          Kontext verstehen, bevor “der Pinsel geschwungen”
+                          wird.
+                        </DotListItem>
+                        <DotListItem>
+                          Selbstorganisation. Du übernimmst die Verantwortung
+                          für deine Arbeit und kommst autonom und strukturiert
+                          zu hochwertig gestalteten Ergebnissen.
+                        </DotListItem>
+                      </DotList>
+                    </Fifty>
+                    <Fifty>
+                      <ListHeadline>UX&I bietet Dir:</ListHeadline>
+                      <DotList>
+                        <DotListItem>
+                          Abwechslungsreiche, nachhaltige und herausfordernde
+                          Projekte, deren Interfaces von vielen Menschen benutzt
+                          werden.
+                        </DotListItem>
+                        <DotListItem>
+                          Pairings und regelmäßige Formate zum Austausch mit
+                          deinen Design-Kollegen.
+                        </DotListItem>
+                        <DotListItem>
+                          Arbeiten nach agilen Methoden, keine Pitches.
+                        </DotListItem>
+                        <DotListItem>
+                          Zeit und Budget für Fortbildung. Lies ein gutes Buch,
+                          fahr auf eine Konferenz oder nutze die Zeit, um an
+                          eigenen Projekten oder an der Firma zu arbeiten.
+                        </DotListItem>
+                        <DotListItem>
+                          Familiäres und lebensfreundliches Arbeitsklima. Bei
+                          uns gibt’s keine Überstunden. Manchmal arbeitet es
+                          sich besser von Zuhause aus und manchmal muss der
+                          Nachwuchs auch mal mit ins Büro.
+                        </DotListItem>
+                        <DotListItem>
+                          Eigenverantwortung und Vertrauen. Gegenseitiger
+                          Respekt wird bei uns wirklich sehr groß geschrieben.
+                          Verantwortung übernimmt jeder für sich, seine Arbeit
+                          und sein Team. Denn Du weißt selbst am besten, ob dein
+                          Urlaub zum Projektplan passt und wo und wie du am
+                          effektivsten arbeiten kannst.
                         </DotListItem>
                       </DotList>
                     </Fifty>
