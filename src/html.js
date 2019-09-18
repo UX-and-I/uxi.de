@@ -42,24 +42,6 @@ module.exports = class HTML extends React.Component {
             sizes="32x32"
             type="image/png"
           />
-          <link
-            rel="icon"
-            href="favicon-48.png"
-            sizes="48x48"
-            type="image/png"
-          />
-          <link
-            rel="icon"
-            href="favicon-62.png"
-            sizes="62x62"
-            type="image/png"
-          />
-          <link
-            rel="icon"
-            href="favicon-192.png"
-            sizes="192x192"
-            type="image/png"
-          />
           <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
           {css}
           <meta
