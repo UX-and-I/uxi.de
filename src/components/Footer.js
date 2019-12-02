@@ -137,7 +137,7 @@ export default function Footer() {
               <Address>
                 <strong>München</strong>
                 <br />
-                August-Everding-Straße 20<br />
+                August-Everding-Str. 20<br />
                 81671 München<br />
                 +49 (0)89 215 407 2-0
               </Address>
