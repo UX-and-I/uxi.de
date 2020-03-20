@@ -282,8 +282,8 @@ export const SimplePageTemplate = ({
             <p>
               sicdata Unternehmensberatung <br />
               Tobias Erdmann<br />
-              Schlachthofstraße 23a<br />
-              42651 Solingen<br />
+              Heiligenstock 34d<br />
+              42697 Solingen<br />
             </p>
             <p>
               Telefon: 0212659850<br />
